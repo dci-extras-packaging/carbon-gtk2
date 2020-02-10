@@ -10,10 +10,11 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools
 Standards-Version: 3.9.8
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/ds9-extras/carbon-gtk2
 
 Package: carbon-gtk2
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: carbon-gtk2 theme
  This package contains the carbon-gtk2 theme
